@@ -1,0 +1,30 @@
+
+2024-07-22 13:57:33,771 INFO - Starting data collection and preprocessing
+2024-07-22 13:57:34,026 INFO - Performing TF-IDF vectorization
+2024-07-22 13:57:34,160 INFO - Training SVM model
+2024-07-22 13:57:46,214 INFO - Evaluating SVM model
+2024-07-22 13:59:55,793 INFO - Starting data collection and preprocessing
+2024-07-22 13:59:55,925 INFO - Performing TF-IDF vectorization
+2024-07-22 13:59:56,055 INFO - Training SVM model
+2024-07-22 14:00:07,743 INFO - Evaluating SVM model
+2024-07-22 14:02:35,800 INFO - Training LSTM model
+2024-07-22 14:04:30,551 INFO - Evaluating LSTM model
+2024-07-22 14:58:59,095 ERROR - An error occurred: name 'predict_text' is not defined
+2024-07-22 14:58:59,095 ERROR - Traceback (most recent call last):
+  File "C:\Users\tr4\AppData\Local\Temp\ipykernel_7564\1778728703.py", line 15, in <module>
+    exp = explainer.explain_instance(instance_text, classifier_fn=predict_text, num_features=10)
+                                                                  ^^^^^^^^^^^^
+NameError: name 'predict_text' is not defined
+
+2024-07-22 14:59:23,532 INFO - Starting data collection and preprocessing
+2024-07-22 14:59:23,662 INFO - Performing TF-IDF vectorization
+2024-07-22 14:59:23,777 INFO - Training SVM model
+2024-07-22 14:59:35,544 INFO - Evaluating SVM model
+2024-07-22 14:59:35,613 INFO - Training LSTM model
+2024-07-22 14:59:40,959 WARNING - From c:\Users\tr4\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2024-07-22 15:01:36,621 INFO - Evaluating LSTM model
+2024-07-22 15:06:46,564 INFO - Training LSTM model
+2024-07-22 15:08:35,701 INFO - Evaluating LSTM model
+2024-07-22 15:08:49,934 INFO - LSTM Accuracy: 0.904734194278717
+2024-07-22 15:08:49,934 INFO - LSTM Accuracy: 0.2760874032974243
